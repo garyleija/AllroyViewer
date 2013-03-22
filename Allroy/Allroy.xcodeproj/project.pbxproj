@@ -23,6 +23,12 @@
 		BC8CC7CB16FC82B700682DBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8CC7A616FC82B700682DBF /* Foundation.framework */; };
 		BC8CC7D316FC82B700682DBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC8CC7D116FC82B700682DBF /* InfoPlist.strings */; };
 		BC8CC7D616FC82B700682DBF /* AllroyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8CC7D516FC82B700682DBF /* AllroyTests.m */; };
+		BC8CC7E516FC8AD300682DBF /* all-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC8CC7E016FC8AD300682DBF /* all-2.jpg */; };
+		BC8CC7E616FC8AD300682DBF /* all-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC8CC7E116FC8AD300682DBF /* all-3.jpg */; };
+		BC8CC7E716FC8AD300682DBF /* all-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC8CC7E216FC8AD300682DBF /* all-4.jpg */; };
+		BC8CC7E816FC8AD300682DBF /* all-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC8CC7E316FC8AD300682DBF /* all-5.jpg */; };
+		BC8CC7E916FC8AD300682DBF /* all-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC8CC7E416FC8AD300682DBF /* all-1.jpg */; };
+		BC8CC7EA16FC8F6F00682DBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8CC7C016FC82B700682DBF /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +64,11 @@
 		BC8CC7D216FC82B700682DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC8CC7D416FC82B700682DBF /* AllroyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllroyTests.h; sourceTree = "<group>"; };
 		BC8CC7D516FC82B700682DBF /* AllroyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllroyTests.m; sourceTree = "<group>"; };
+		BC8CC7E016FC8AD300682DBF /* all-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "all-2.jpg"; sourceTree = "<group>"; };
+		BC8CC7E116FC8AD300682DBF /* all-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "all-3.jpg"; sourceTree = "<group>"; };
+		BC8CC7E216FC8AD300682DBF /* all-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "all-4.jpg"; sourceTree = "<group>"; };
+		BC8CC7E316FC8AD300682DBF /* all-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "all-5.jpg"; sourceTree = "<group>"; };
+		BC8CC7E416FC8AD300682DBF /* all-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "all-1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +98,7 @@
 		BC8CC79816FC82B700682DBF = {
 			isa = PBXGroup;
 			children = (
+				BC8CC7DF16FC8AD300682DBF /* all */,
 				BC8CC7AA16FC82B700682DBF /* Allroy */,
 				BC8CC7CE16FC82B700682DBF /* AllroyTests */,
 				BC8CC7A316FC82B700682DBF /* Frameworks */,
@@ -158,6 +170,19 @@
 				BC8CC7D116FC82B700682DBF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC8CC7DF16FC8AD300682DBF /* all */ = {
+			isa = PBXGroup;
+			children = (
+				BC8CC7E016FC8AD300682DBF /* all-2.jpg */,
+				BC8CC7E116FC8AD300682DBF /* all-3.jpg */,
+				BC8CC7E216FC8AD300682DBF /* all-4.jpg */,
+				BC8CC7E316FC8AD300682DBF /* all-5.jpg */,
+				BC8CC7E416FC8AD300682DBF /* all-1.jpg */,
+			);
+			name = all;
+			path = "../../untitled folder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +261,11 @@
 				BC8CC7B916FC82B700682DBF /* Default@2x.png in Resources */,
 				BC8CC7BB16FC82B700682DBF /* Default-568h@2x.png in Resources */,
 				BC8CC7BE16FC82B700682DBF /* MainStoryboard.storyboard in Resources */,
+				BC8CC7E516FC8AD300682DBF /* all-2.jpg in Resources */,
+				BC8CC7E616FC8AD300682DBF /* all-3.jpg in Resources */,
+				BC8CC7E716FC8AD300682DBF /* all-4.jpg in Resources */,
+				BC8CC7E816FC8AD300682DBF /* all-5.jpg in Resources */,
+				BC8CC7E916FC8AD300682DBF /* all-1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC8CC7D616FC82B700682DBF /* AllroyTests.m in Sources */,
+				BC8CC7EA16FC8F6F00682DBF /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +484,7 @@
 				BC8CC7DB16FC82B700682DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC8CC7DC16FC82B700682DBF /* Build configuration list for PBXNativeTarget "AllroyTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +493,7 @@
 				BC8CC7DE16FC82B700682DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
