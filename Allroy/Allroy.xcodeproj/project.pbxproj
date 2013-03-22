@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC8CC7A516FC82B700682DBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8CC7A416FC82B700682DBF /* UIKit.framework */; };
+		BC8CC7A716FC82B700682DBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8CC7A616FC82B700682DBF /* Foundation.framework */; };
+		BC8CC7A916FC82B700682DBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8CC7A816FC82B700682DBF /* CoreGraphics.framework */; };
+		BC8CC7AF16FC82B700682DBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC8CC7AD16FC82B700682DBF /* InfoPlist.strings */; };
+		BC8CC7B116FC82B700682DBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8CC7B016FC82B700682DBF /* main.m */; };
+		BC8CC7B516FC82B700682DBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8CC7B416FC82B700682DBF /* AppDelegate.m */; };
+		BC8CC7B716FC82B700682DBF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8CC7B616FC82B700682DBF /* Default.png */; };
+		BC8CC7B916FC82B700682DBF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8CC7B816FC82B700682DBF /* Default@2x.png */; };
+		BC8CC7BB16FC82B700682DBF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8CC7BA16FC82B700682DBF /* Default-568h@2x.png */; };
+		BC8CC7BE16FC82B700682DBF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8CC7BC16FC82B700682DBF /* MainStoryboard.storyboard */; };
+		BC8CC7C116FC82B700682DBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8CC7C016FC82B700682DBF /* ViewController.m */; };
+		BC8CC7C916FC82B700682DBF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8CC7C816FC82B700682DBF /* SenTestingKit.framework */; };
+		BC8CC7CA16FC82B700682DBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8CC7A416FC82B700682DBF /* UIKit.framework */; };
+		BC8CC7CB16FC82B700682DBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8CC7A616FC82B700682DBF /* Foundation.framework */; };
+		BC8CC7D316FC82B700682DBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC8CC7D116FC82B700682DBF /* InfoPlist.strings */; };
+		BC8CC7D616FC82B700682DBF /* AllroyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8CC7D516FC82B700682DBF /* AllroyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC8CC7CC16FC82B700682DBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC8CC79916FC82B700682DBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC8CC7A016FC82B700682DBF;
+			remoteInfo = Allroy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC8CC7A116FC82B700682DBF /* Allroy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Allroy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8CC7A416FC82B700682DBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC8CC7A616FC82B700682DBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC8CC7A816FC82B700682DBF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC8CC7AC16FC82B700682DBF /* Allroy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Allroy-Info.plist"; sourceTree = "<group>"; };
+		BC8CC7AE16FC82B700682DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC8CC7B016FC82B700682DBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC8CC7B216FC82B700682DBF /* Allroy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Allroy-Prefix.pch"; sourceTree = "<group>"; };
+		BC8CC7B316FC82B700682DBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC8CC7B416FC82B700682DBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC8CC7B616FC82B700682DBF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BC8CC7B816FC82B700682DBF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BC8CC7BA16FC82B700682DBF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BC8CC7BD16FC82B700682DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BC8CC7BF16FC82B700682DBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC8CC7C016FC82B700682DBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC8CC7C716FC82B700682DBF /* AllroyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllroyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8CC7C816FC82B700682DBF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC8CC7D016FC82B700682DBF /* AllroyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AllroyTests-Info.plist"; sourceTree = "<group>"; };
+		BC8CC7D216FC82B700682DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC8CC7D416FC82B700682DBF /* AllroyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllroyTests.h; sourceTree = "<group>"; };
+		BC8CC7D516FC82B700682DBF /* AllroyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllroyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC8CC79E16FC82B700682DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8CC7A516FC82B700682DBF /* UIKit.framework in Frameworks */,
+				BC8CC7A716FC82B700682DBF /* Foundation.framework in Frameworks */,
+				BC8CC7A916FC82B700682DBF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8CC7C316FC82B700682DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8CC7C916FC82B700682DBF /* SenTestingKit.framework in Frameworks */,
+				BC8CC7CA16FC82B700682DBF /* UIKit.framework in Frameworks */,
+				BC8CC7CB16FC82B700682DBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC8CC79816FC82B700682DBF = {
+			isa = PBXGroup;
+			children = (
+				BC8CC7AA16FC82B700682DBF /* Allroy */,
+				BC8CC7CE16FC82B700682DBF /* AllroyTests */,
+				BC8CC7A316FC82B700682DBF /* Frameworks */,
+				BC8CC7A216FC82B700682DBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC8CC7A216FC82B700682DBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC8CC7A116FC82B700682DBF /* Allroy.app */,
+				BC8CC7C716FC82B700682DBF /* AllroyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC8CC7A316FC82B700682DBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC8CC7A416FC82B700682DBF /* UIKit.framework */,
+				BC8CC7A616FC82B700682DBF /* Foundation.framework */,
+				BC8CC7A816FC82B700682DBF /* CoreGraphics.framework */,
+				BC8CC7C816FC82B700682DBF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC8CC7AA16FC82B700682DBF /* Allroy */ = {
+			isa = PBXGroup;
+			children = (
+				BC8CC7B316FC82B700682DBF /* AppDelegate.h */,
+				BC8CC7B416FC82B700682DBF /* AppDelegate.m */,
+				BC8CC7BC16FC82B700682DBF /* MainStoryboard.storyboard */,
+				BC8CC7BF16FC82B700682DBF /* ViewController.h */,
+				BC8CC7C016FC82B700682DBF /* ViewController.m */,
+				BC8CC7AB16FC82B700682DBF /* Supporting Files */,
+			);
+			path = Allroy;
+			sourceTree = "<group>";
+		};
+		BC8CC7AB16FC82B700682DBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC8CC7AC16FC82B700682DBF /* Allroy-Info.plist */,
+				BC8CC7AD16FC82B700682DBF /* InfoPlist.strings */,
+				BC8CC7B016FC82B700682DBF /* main.m */,
+				BC8CC7B216FC82B700682DBF /* Allroy-Prefix.pch */,
+				BC8CC7B616FC82B700682DBF /* Default.png */,
+				BC8CC7B816FC82B700682DBF /* Default@2x.png */,
+				BC8CC7BA16FC82B700682DBF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC8CC7CE16FC82B700682DBF /* AllroyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC8CC7D416FC82B700682DBF /* AllroyTests.h */,
+				BC8CC7D516FC82B700682DBF /* AllroyTests.m */,
+				BC8CC7CF16FC82B700682DBF /* Supporting Files */,
+			);
+			path = AllroyTests;
+			sourceTree = "<group>";
+		};
+		BC8CC7CF16FC82B700682DBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC8CC7D016FC82B700682DBF /* AllroyTests-Info.plist */,
+				BC8CC7D116FC82B700682DBF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC8CC7A016FC82B700682DBF /* Allroy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8CC7D916FC82B700682DBF /* Build configuration list for PBXNativeTarget "Allroy" */;
+			buildPhases = (
+				BC8CC79D16FC82B700682DBF /* Sources */,
+				BC8CC79E16FC82B700682DBF /* Frameworks */,
+				BC8CC79F16FC82B700682DBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Allroy;
+			productName = Allroy;
+			productReference = BC8CC7A116FC82B700682DBF /* Allroy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC8CC7C616FC82B700682DBF /* AllroyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8CC7DC16FC82B700682DBF /* Build configuration list for PBXNativeTarget "AllroyTests" */;
+			buildPhases = (
+				BC8CC7C216FC82B700682DBF /* Sources */,
+				BC8CC7C316FC82B700682DBF /* Frameworks */,
+				BC8CC7C416FC82B700682DBF /* Resources */,
+				BC8CC7C516FC82B700682DBF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC8CC7CD16FC82B700682DBF /* PBXTargetDependency */,
+			);
+			name = AllroyTests;
+			productName = AllroyTests;
+			productReference = BC8CC7C716FC82B700682DBF /* AllroyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC8CC79916FC82B700682DBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Gary Leija";
+			};
+			buildConfigurationList = BC8CC79C16FC82B700682DBF /* Build configuration list for PBXProject "Allroy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC8CC79816FC82B700682DBF;
+			productRefGroup = BC8CC7A216FC82B700682DBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC8CC7A016FC82B700682DBF /* Allroy */,
+				BC8CC7C616FC82B700682DBF /* AllroyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC8CC79F16FC82B700682DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8CC7AF16FC82B700682DBF /* InfoPlist.strings in Resources */,
+				BC8CC7B716FC82B700682DBF /* Default.png in Resources */,
+				BC8CC7B916FC82B700682DBF /* Default@2x.png in Resources */,
+				BC8CC7BB16FC82B700682DBF /* Default-568h@2x.png in Resources */,
+				BC8CC7BE16FC82B700682DBF /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8CC7C416FC82B700682DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8CC7D316FC82B700682DBF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC8CC7C516FC82B700682DBF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC8CC79D16FC82B700682DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8CC7B116FC82B700682DBF /* main.m in Sources */,
+				BC8CC7B516FC82B700682DBF /* AppDelegate.m in Sources */,
+				BC8CC7C116FC82B700682DBF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8CC7C216FC82B700682DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8CC7D616FC82B700682DBF /* AllroyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC8CC7CD16FC82B700682DBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC8CC7A016FC82B700682DBF /* Allroy */;
+			targetProxy = BC8CC7CC16FC82B700682DBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC8CC7AD16FC82B700682DBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8CC7AE16FC82B700682DBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC8CC7BC16FC82B700682DBF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8CC7BD16FC82B700682DBF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		BC8CC7D116FC82B700682DBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8CC7D216FC82B700682DBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC8CC7D716FC82B700682DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC8CC7D816FC82B700682DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC8CC7DA16FC82B700682DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Allroy/Allroy-Prefix.pch";
+				INFOPLIST_FILE = "Allroy/Allroy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC8CC7DB16FC82B700682DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Allroy/Allroy-Prefix.pch";
+				INFOPLIST_FILE = "Allroy/Allroy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC8CC7DD16FC82B700682DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Allroy.app/Allroy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Allroy/Allroy-Prefix.pch";
+				INFOPLIST_FILE = "AllroyTests/AllroyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BC8CC7DE16FC82B700682DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Allroy.app/Allroy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Allroy/Allroy-Prefix.pch";
+				INFOPLIST_FILE = "AllroyTests/AllroyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC8CC79C16FC82B700682DBF /* Build configuration list for PBXProject "Allroy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8CC7D716FC82B700682DBF /* Debug */,
+				BC8CC7D816FC82B700682DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8CC7D916FC82B700682DBF /* Build configuration list for PBXNativeTarget "Allroy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8CC7DA16FC82B700682DBF /* Debug */,
+				BC8CC7DB16FC82B700682DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC8CC7DC16FC82B700682DBF /* Build configuration list for PBXNativeTarget "AllroyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8CC7DD16FC82B700682DBF /* Debug */,
+				BC8CC7DE16FC82B700682DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC8CC79916FC82B700682DBF /* Project object */;
+}
